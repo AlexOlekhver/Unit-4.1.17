@@ -7,28 +7,32 @@ namespace Project_Switch
         static void Main(string[] args)
         {
             Console.WriteLine("Напишите свой любимый цвет на английском маленькими буквами");
-            
+
             var color = Console.ReadLine();
-            
-            switch (color)
+
+            for (int i = 1; i < 5; i++)
             {
-                case "red":
-                    Console.BackgroundColor = ConsoleColor.Red;
-                    Console.ForegroundColor = ConsoleColor.Black;
-                    Console.WriteLine("your favorite color red!");
-                    break;
+                Console.WriteLine("Iteration {0}", i);
+                switch (Console.ReadLine())
+                {
+                    case "red":
+                        Console.BackgroundColor = ConsoleColor.Red;
+                        Console.ForegroundColor = ConsoleColor.Black;
+                        Console.WriteLine("your favorite color red!");
+                        break;
 
-                case "green":
-                    Console.BackgroundColor = ConsoleColor.Green;
-                    Console.ForegroundColor = ConsoleColor.Black;
-                    Console.WriteLine("your favorite color green!");
-                    break;
+                    case "green":
+                        Console.BackgroundColor = ConsoleColor.Green;
+                        Console.ForegroundColor = ConsoleColor.Black;
+                        Console.WriteLine("your favorite color green!");
+                        break;
 
-                case default:
-                    Console.BackgroundColor = ConsoleColor.Cyan;
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("your favorite color cyan!");
-                    break;
+                    default:
+                        Console.BackgroundColor = ConsoleColor.Cyan;
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.WriteLine("your favorite color cyan!");
+                        break;
+                }
             }
         }
     }
