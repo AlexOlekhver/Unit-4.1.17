@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddUpperBound", "AddUpperBo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingNumbers", "SortingNumbers\SortingNumbers.csproj", "{9DD6B669-01F5-40AA-A826-6491B42B6F94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummMassive", "SummMassive\SummMassive.csproj", "{D8B45665-5609-46AF-8BB5-69BE705255FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{9DD6B669-01F5-40AA-A826-6491B42B6F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DD6B669-01F5-40AA-A826-6491B42B6F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DD6B669-01F5-40AA-A826-6491B42B6F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8B45665-5609-46AF-8BB5-69BE705255FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B45665-5609-46AF-8BB5-69BE705255FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B45665-5609-46AF-8BB5-69BE705255FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B45665-5609-46AF-8BB5-69BE705255FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
