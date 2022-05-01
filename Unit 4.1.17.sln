@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddAmountOfPosNum", "AddAmo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddAmountOfPos - 2s Massive", "AddAmountOfPos - 2s Massive\AddAmountOfPos - 2s Massive.csproj", "{9043FA2C-3047-4B94-8E24-C3144242D5F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anketa", "Anketa\Anketa.csproj", "{72237811-19FA-4B76-8327-7083D38296F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{9043FA2C-3047-4B94-8E24-C3144242D5F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9043FA2C-3047-4B94-8E24-C3144242D5F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9043FA2C-3047-4B94-8E24-C3144242D5F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72237811-19FA-4B76-8327-7083D38296F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72237811-19FA-4B76-8327-7083D38296F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72237811-19FA-4B76-8327-7083D38296F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72237811-19FA-4B76-8327-7083D38296F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
