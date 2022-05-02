@@ -3,25 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit 4.1.17", "Unit 4.1.17\Unit 4.1.17.csproj", "{5143D3F2-5C74-45D7-9C67-3594F3598C58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit 4.1.17", "Unit 4.1.17\Unit 4.1.17.csproj", "{5143D3F2-5C74-45D7-9C67-3594F3598C58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project Switch", "Project Switch\Project Switch.csproj", "{928A356A-3E98-4449-8DFD-ED0978C9BE1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project Switch", "Project Switch\Project Switch.csproj", "{928A356A-3E98-4449-8DFD-ED0978C9BE1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassiveMinValue", "MassiveMinValue\MassiveMinValue.csproj", "{2E204E6A-55FB-49E9-87E5-3140A7305804}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassiveMinValue", "MassiveMinValue\MassiveMinValue.csproj", "{2E204E6A-55FB-49E9-87E5-3140A7305804}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassiveNamebyletters", "MassiveNamebyletters\MassiveNamebyletters.csproj", "{C0F3DEDA-106C-46C6-83D2-A8B16B960FCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassiveNamebyletters", "MassiveNamebyletters\MassiveNamebyletters.csproj", "{C0F3DEDA-106C-46C6-83D2-A8B16B960FCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddUpperBound", "AddUpperBound\AddUpperBound.csproj", "{9C96D047-953F-474B-A0D5-A16FD813A4E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddUpperBound", "AddUpperBound\AddUpperBound.csproj", "{9C96D047-953F-474B-A0D5-A16FD813A4E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingNumbers", "SortingNumbers\SortingNumbers.csproj", "{9DD6B669-01F5-40AA-A826-6491B42B6F94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingNumbers", "SortingNumbers\SortingNumbers.csproj", "{9DD6B669-01F5-40AA-A826-6491B42B6F94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummMassive", "SummMassive\SummMassive.csproj", "{D8B45665-5609-46AF-8BB5-69BE705255FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SummMassive", "SummMassive\SummMassive.csproj", "{D8B45665-5609-46AF-8BB5-69BE705255FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddAmountOfPosNum", "AddAmountOfPosNum\AddAmountOfPosNum.csproj", "{041DD95E-29A9-4015-8032-CAA7461B39FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddAmountOfPosNum", "AddAmountOfPosNum\AddAmountOfPosNum.csproj", "{041DD95E-29A9-4015-8032-CAA7461B39FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddAmountOfPos - 2s Massive", "AddAmountOfPos - 2s Massive\AddAmountOfPos - 2s Massive.csproj", "{9043FA2C-3047-4B94-8E24-C3144242D5F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddAmountOfPos - 2s Massive", "AddAmountOfPos - 2s Massive\AddAmountOfPos - 2s Massive.csproj", "{9043FA2C-3047-4B94-8E24-C3144242D5F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anketa", "Anketa\Anketa.csproj", "{72237811-19FA-4B76-8327-7083D38296F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anketa", "Anketa\Anketa.csproj", "{72237811-19FA-4B76-8327-7083D38296F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User", "User\User.csproj", "{8096E7FB-F91B-4CD8-A354-F0ADDC0773BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{72237811-19FA-4B76-8327-7083D38296F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72237811-19FA-4B76-8327-7083D38296F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72237811-19FA-4B76-8327-7083D38296F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8096E7FB-F91B-4CD8-A354-F0ADDC0773BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8096E7FB-F91B-4CD8-A354-F0ADDC0773BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8096E7FB-F91B-4CD8-A354-F0ADDC0773BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8096E7FB-F91B-4CD8-A354-F0ADDC0773BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
