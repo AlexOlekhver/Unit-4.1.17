@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module 5 - User", "Module 5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module 5.1 ShowColor", "Module 5.1 ShowColor\Module 5.1 ShowColor.csproj", "{D6F7EE7B-9588-4ECB-93D2-18365FC9E58A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module 5.1 ShowColor - Massive", "Module 5.1 ShowColor - Massive\Module 5.1 ShowColor - Massive.csproj", "{BD20A90B-BF04-4EC5-A122-AC866D22A765}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{D6F7EE7B-9588-4ECB-93D2-18365FC9E58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6F7EE7B-9588-4ECB-93D2-18365FC9E58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6F7EE7B-9588-4ECB-93D2-18365FC9E58A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD20A90B-BF04-4EC5-A122-AC866D22A765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD20A90B-BF04-4EC5-A122-AC866D22A765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD20A90B-BF04-4EC5-A122-AC866D22A765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD20A90B-BF04-4EC5-A122-AC866D22A765}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
