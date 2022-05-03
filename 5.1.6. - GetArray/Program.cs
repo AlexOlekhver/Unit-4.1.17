@@ -38,5 +38,6 @@ namespace _5._1._6.___GetArray
             }
             return result;
         }
+
     }
 }
