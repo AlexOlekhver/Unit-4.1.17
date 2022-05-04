@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module 5.1 ShowColor - Mass
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.1.6. - GetArray", "5.1.6. - GetArray\5.1.6. - GetArray.csproj", "{C43BD267-C28B-4E47-9C9A-BCCC3927BBDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.8", "5.2.8\5.2.8.csproj", "{56DE05F4-9C86-4FED-A542-EBE8C22E4A89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{C43BD267-C28B-4E47-9C9A-BCCC3927BBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C43BD267-C28B-4E47-9C9A-BCCC3927BBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C43BD267-C28B-4E47-9C9A-BCCC3927BBDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56DE05F4-9C86-4FED-A542-EBE8C22E4A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56DE05F4-9C86-4FED-A542-EBE8C22E4A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56DE05F4-9C86-4FED-A542-EBE8C22E4A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56DE05F4-9C86-4FED-A542-EBE8C22E4A89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
