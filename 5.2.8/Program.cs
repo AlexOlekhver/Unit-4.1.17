@@ -6,9 +6,21 @@ namespace _5._2._8
     {
         static void Main(string[] args)
         {
-            var array = GetArrayFromConsole();
-            var sortdearray = SortArray(array);
-            Console.WriteLine(sortdearray[0]);
+            var array = GetArrayFromConsole(10);
+            ShowArray(array, true);
+        }
+
+        static void ShowArray(int[] array, bool Sort = false)
+        {
+            var temp = array;
+            if (Sort)
+            {
+                temp = SortArray(array);
+            }
+            foreach (var item in array)
+            {
+                Console.WriteLine(item);
+            }
         }
 
         static int[] GetArrayFromConsole(int num = 5)
