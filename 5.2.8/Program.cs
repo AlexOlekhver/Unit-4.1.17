@@ -6,12 +6,14 @@ namespace _5._2._8
     {
         static void Main(string[] args)
         {
-            GetArrayFromConsole();
+            var array = GetArrayFromConsole();
+            var sortdearray = SortArray(array);
+            Console.WriteLine(sortdearray[0]);
         }
 
-        static int[] GetArrayFromConsole()
+        static int[] GetArrayFromConsole(int num = 5)
         {
-            var result = new int[5];
+            var result = new int[num];
 
             for (int i = 0; i < result.Length; i++)
             {
@@ -20,23 +22,21 @@ namespace _5._2._8
             }
             return result;
         }
-        static int[] SortArray(int[] array)
+        static int[] SortArray(int[] result)
         {
-            array = GetArrayFromConsole();
-
             int temp = 0;
 
-            for (int i = 0; i < array.Length; i++)
+            for (int i = 0; i < result.Length; i++)
             {
-                for (int j = i + 1; j < array.Length; j++)
-                    if (array[i] < array[j])
+                for (int j = i + 1; j < result.Length; j++)
+                    if (result[i] > result[j])
                     {
-                        temp = array[i];
-                        array[i] = array[j];
-                        array[j] = temp;
+                        temp = result[i];
+                        result[i] = result[j];
+                        result[j] = temp;
                     }
             }
-            return array;
+            return result;
         }
 
     }
