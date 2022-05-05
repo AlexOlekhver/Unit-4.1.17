@@ -6,7 +6,8 @@ namespace _5._2._8
     {
         static void Main(string[] args)
         {
-            var array = GetArrayFromConsole(10);
+            int num = 6;
+            var array = GetArrayFromConsole(ref num);
             ShowArray(array, true);
         }
 
@@ -23,7 +24,7 @@ namespace _5._2._8
             }
         }
 
-        static int[] GetArrayFromConsole(int num = 5)
+        static int[] GetArrayFromConsole(ref int num)
         {
             var result = new int[num];
 
