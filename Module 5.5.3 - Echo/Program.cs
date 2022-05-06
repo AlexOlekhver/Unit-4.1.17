@@ -24,6 +24,7 @@ namespace Module_5._5._3___Echo
             {
                 modif = modif.Remove(0, 2);
             }
+            Console.BackgroundColor = (ConsoleColor)deep;
             Console.WriteLine("..." + modif);
 
             if (deep > 1)
