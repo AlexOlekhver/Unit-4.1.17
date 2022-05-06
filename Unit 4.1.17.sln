@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.8", "5.2.8\5.2.8.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.3.1", "5.3.1\5.3.1.csproj", "{387D72F5-F682-4CF3-BEDF-5230DC7D8184}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module 5.5.3 - Echo", "Module 5.5.3 - Echo\Module 5.5.3 - Echo.csproj", "{AE3981B6-3376-47A2-8B4E-9C6BA0D59DF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{387D72F5-F682-4CF3-BEDF-5230DC7D8184}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{387D72F5-F682-4CF3-BEDF-5230DC7D8184}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{387D72F5-F682-4CF3-BEDF-5230DC7D8184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE3981B6-3376-47A2-8B4E-9C6BA0D59DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE3981B6-3376-47A2-8B4E-9C6BA0D59DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE3981B6-3376-47A2-8B4E-9C6BA0D59DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE3981B6-3376-47A2-8B4E-9C6BA0D59DF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

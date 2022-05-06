@@ -35,23 +35,44 @@ namespace _5._2._8
             }
             return result;
         }
-        static int[] SortArray(int[] result)
+        static void SortArray(in int[] array, out int[] sortdesc, out int[] sortdasc )
+        {
+            sortdesc = SortArrayDesc(array);
+            sortdasc = SortArrayAsc(array);
+
+        }    
+        static int[] SortArrayDesc(int[] array)
         {
             int temp = 0;
 
-            for (int i = 0; i < result.Length; i++)
+            for (int i = 0; i < array.Length; i++)
             {
-                for (int j = i + 1; j < result.Length; j++)
-                    if (result[i] > result[j])
+                for (int j = i + 1; j < array.Length; j++)
+                    if (array[i] > array[j])
                     {
-                        temp = result[i];
-                        result[i] = result[j];
-                        result[j] = temp;
+                        temp = array[i];
+                        array[i] = array[j];
+                        array[j] = temp;
                     }
             }
-            return result;
+            return array;
         }
+        static int[] SortArrayAsc(in int[] array)
+        {
+            int temp = 0;
 
+            for (int i = 0; i < array.Length; i++)
+            {
+                for (int j = i + 1; j < array.Length; j++)
+                    if (array[i] < array[j])
+                    {
+                        temp = array[i];
+                        array[i] = array[j];
+                        array[j] = temp;
+                    }
+            }
+            return array;
+        }
     }
 }
 
