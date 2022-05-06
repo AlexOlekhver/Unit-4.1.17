@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module 5.5.3 - Echo", "Modu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module 5.5.5 - Factorial", "Module 5.5.5 - Factorial\Module 5.5.5 - Factorial.csproj", "{0A233F1D-0751-4167-BDCF-6DBDE7CA354B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module 5.5.8 bring to the power (возводим в степень)", "Module 5.5.8 bring to the power (возводим в степень)\Module 5.5.8 bring to the power (возводим в степень).csproj", "{2FD1CE4C-503C-483F-8B04-93012959539B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{0A233F1D-0751-4167-BDCF-6DBDE7CA354B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A233F1D-0751-4167-BDCF-6DBDE7CA354B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A233F1D-0751-4167-BDCF-6DBDE7CA354B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD1CE4C-503C-483F-8B04-93012959539B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD1CE4C-503C-483F-8B04-93012959539B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD1CE4C-503C-483F-8B04-93012959539B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD1CE4C-503C-483F-8B04-93012959539B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
