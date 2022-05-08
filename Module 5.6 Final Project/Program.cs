@@ -11,7 +11,7 @@ namespace Module_5._6_Final_Project
             Console.WriteLine("Please insert your name: ");
             User.Name = Console.ReadLine();
             string username = User.Name;
-
+            
 
             Console.WriteLine("Please insert your Second Name: ");
             User.SecondName = Console.ReadLine();
@@ -30,6 +30,7 @@ namespace Module_5._6_Final_Project
                 Console.WriteLine("How many pets do you have?");
                 CountPets = int.Parse(Console.ReadLine());
                 TryParsePets(CountPets);
+                Pets(CountPets);
             }
             string[] pets = Pets(CountPets);
 
@@ -38,7 +39,7 @@ namespace Module_5._6_Final_Project
             TryParseNumflow(numflow);
             string[] favflow = FavFlowers(numflow);
             
-
+            
             ShowUser(username, secondname, age, CountPets, pets, favflow);
             Console.ReadKey();
         }
@@ -51,6 +52,10 @@ namespace Module_5._6_Final_Project
             {
                 Console.WriteLine("Please insert name of your {0} pet:", i+1);
                 NamePets[i] = Console.ReadLine();
+            }
+            foreach (var item in NamePets)
+            {
+                Console.WriteLine();
             }
             return NamePets;
         }
@@ -103,7 +108,7 @@ namespace Module_5._6_Final_Project
             Console.WriteLine("You have {0} pets", CountPets);
             Console.WriteLine(" Names of your pets:");
             for ( int i = 0; i < CountPets; i++)
-            {
+        {
                 Console.WriteLine(pets[i]);
             }
 
