@@ -40,6 +40,7 @@ namespace Module_5._6_Final_Project
             
 
             ShowUser(username, secondname, age, CountPets, pets, favflow);
+            Console.ReadKey();
         }
 
         static string[] Pets(int CountPets)
